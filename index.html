@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tu Regalo</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="sobre" id="sobre">
+    <div class="hoja" id="hoja">
+      <div class="contenido-carta">
+        <div class="emoji-titulo">🎁💖👶</div>
+        <h2>Hola <span id="nombreInvitado"></span>!</h2>
+        <p class="mensaje">Tu regalo asignado es:</p>
+        <p class="regalo"><strong><span id="regalo"></span></strong></p>
+ <div class="formulario-confirmacion">
+  <h3>Confirma tu asistencia 💌</h3>
+  <iframe 
+    src="https://docs.google.com/forms/d/e/1FAIpQLSc-YFyCS6XpYaH4FkSlPdB665_RAmx8v1BBr9SWEN4VMm0D_g/viewform?embedded=true"
+    width="100%" 
+    height="650" 
+    frameborder="0" 
+    marginheight="0" 
+    marginwidth="0"
+    loading="lazy"
+  >
+    Cargando…
+  </iframe>
+</div>
+
+
+        <button onclick="cerrarSesion()" class="btn-salir">Salir</button>
+      </div>
+    </div>
+  </div>
+  <script src="carta.js"></script>
+</body>
+</html>

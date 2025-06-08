@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to bottom, #ffe6f0, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background: url('img/istockphoto-518549426-612x612.jpg'), linear-gradient(to bottom, #ffe6f0, #ffffff);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* SOBRE */
+.sobre {
+  width: 380px;
+  height: 280px;
+  background: url('img/ChatGPT\ Image\ 1\ jun\ 2025\,\ 00_29_46.png') center/cover no-repeat;
+  border-radius: 16px;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.sobre:hover {
+ transform: scale(1.05) rotate(-1deg);
+}
+
+/* HOJA DESLIZANTE */
+.hoja {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+  transition: top 0.8s ease, opacity 0.5s ease, transform 0.5s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  z-index: 10;
+  border: 2px dashed #f06292;
+  background: #fffdfd;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.hoja.visible {
+  top: 0;
+  opacity: 1;
+  transform: translateY(0) scale(1.02);
+  animation: aparecer 0.6s ease;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(1);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1.02);
+  }
+}
+
+
+/* CONTENIDO DE LA CARTA */
+.contenido-carta {
+  text-align: center;
+  color: #444;
+}
+
+.emoji-titulo {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.contenido-carta h2 {
+  color: #f06292;
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+}
+
+.mensaje {
+  font-size: 1rem;
+  color: #777;
+}
+
+.info p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.emoji-titulo {
+  font-family: 'Pacifico', cursive;
+}
+.login-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 300px;
+}
+
+.login-container h1 {
+  font-family: 'Quicksand', sans-serif;
+  color: #f06292;
+  margin-bottom: 1.5rem;
+}
+
+#loginForm input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 2px solid #f8bbd0;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
+}
+
+#loginForm button {
+  background-color: #f06292;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#loginForm button:hover {
+  background-color: #e91e63;
+}
+.mensaje {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 1rem;
+}
+
+.regalo {
+  font-size: 1.5rem;
+  color: #f06292;
+  margin: 1rem 0;
+}
+.confirmacion {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.confirmacion a {
+  color: #f06292;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.confirmacion a:hover {
+  color: #e91e63;
+  text-decoration: underline;
+}
+.formulario-confirmacion {
+  margin-top: 2rem;
+  border: 2px dashed #f48fb1;
+  border-radius: 16px;
+  padding: 1rem;
+  background: #fff5f8;
+  box-shadow: 0 4px 12px rgba(240, 98, 146, 0.15);
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.formulario-confirmacion h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #ec407a;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 1rem;
+}
+/* Permitir scroll vertical en todo el documento */
+body {
+  overflow-y: auto !important;
+  height: auto !important;
+  min-height: 100vh;
+}
+
+/* Asegura que la hoja se expanda verticalmente si lo necesita */
+.hoja {
+  max-height: none;
+  overflow-y: visible;
+  position: relative;
+}
+
+/* Ajuste de iframe para móviles */
+@media (max-width: 600px) {
+  .formulario-confirmacion iframe {
+    height: 750px;
+  }
+}
