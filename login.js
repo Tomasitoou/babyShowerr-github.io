@@ -40,8 +40,8 @@ const invitados = [
   { nombre: "Familia Rojas", codigo: "famroj55", regalo: "Semanario + Pañales Pampers 2" },
   { nombre: "Laura Alvarez y Sr", codigo: "lauraa60", regalo: "Bodys talla 3 meses + Pañales Pampers 4" },
   { nombre: "Lina Mican/Sr", codigo: "linamz48", regalo: "Sudadera talla 6 meses + Pañales Pampers 2" },
-  { nombre: "Viviana Amaya y Hermana", codigo: "viviah92", regalo: "Conjunto talla 3 meses + Pañales Pampers 3" }
-  { nombre: "Nelly Giraldo", codigo: "nellyg22", regalo: "Kit De Aseo" }
+  { nombre: "Viviana Amaya y Hermana", codigo: "viviah92", regalo: "Conjunto talla 3 meses + Pañales Pampers 3" },
+  { nombre: "Nelly Giraldo", codigo: "nellyg22", regalo: "Kit De Aseo" },
   { nombre: "Juan Esteban Maldonado", codigo: "juanm777", regalo: "Pañales Pampers etapa 3" }
 ];
 
