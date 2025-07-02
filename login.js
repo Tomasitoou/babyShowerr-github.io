@@ -11,7 +11,7 @@ const invitados = [
   { nombre: "Santiago Cortes Saenz", codigo: "santi12", regalo: "Pañales Pampers 2" },
   { nombre: "Gabriel Saenz, Sra e Hija", codigo: "gsaenz93", regalo: "Conjunto talla 3 meses + Pañales Pampers 3" },
   { nombre: "Edgar Moreno", codigo: "edgarm81", regalo: "Cobija + Pañales Pampers 3" },
-  { nombre: "Ingrid Moreno e Hija", codigo: "ingrid67", regalo: "Cojín de lactancia + Cobija + Pañales Pampers 3" },
+  { nombre: "Ingrid Moreno e Hija", codigo: "ingrid67", regalo: "Cojín de lactancia + Cobija" },
   { nombre: "Angel David Moreno", codigo: "angelm45", regalo: "Pañales Pampers 3" },
   { nombre: "Gabriel Moreno y Sra", codigo: "gabm22", regalo: "Sleeping 6 meses + Pañales Pampers 2" },
   { nombre: "Milena Moreno e Hija", codigo: "milena89", regalo: "Juego de toallas + Pañales Pampers 2" },
@@ -29,18 +29,20 @@ const invitados = [
   { nombre: "Luz Ricuarte", codigo: "luzr80", regalo: "Bata de baño + Pañales Pampers 2" },
   { nombre: "Leonardo Portela y Sra", codigo: "leonp99", regalo: "Móvil musical + Pañales Pampers Recién Nacido" },
   { nombre: "Felipe Tellez", codigo: "feltel10", regalo: "Caminador + Pañales Pampers 2" },
-  { nombre: "Miguel Galviz", codigo: "miggal26", regalo: "Silla mecedora + Pañales Pampers 4" },
+  { nombre: "Miguel Galviz", codigo: "miggal26", regalo: "Silla mecedora " },
   { nombre: "Isaac Ordoñez", codigo: "isaaco43", regalo: "Pijama talla 6 meses + Pañales Pampers 3" },
   { nombre: "Alejandro Cardona", codigo: "alejoc87", regalo: "Conjunto talla 3 meses + Pañales Pampers 4" },
   { nombre: "William Garcia y Sra e Hijos", codigo: "willgar78", regalo: "Silla comedor bebé + Pañales Pampers 4" },
   { nombre: "Mairon Abella y Sra", codigo: "maironx5", regalo: "Conjunto talla 6 meses + Pañales Pampers 4" },
   { nombre: "Luis Guzman y Sra", codigo: "luisgz99", regalo: "Juego de toallas + Pañales Pampers 2" },
   { nombre: "Cristian Franco y Sra", codigo: "crisf33", regalo: "Conjunto talla 6 meses + Pañales Pampers 4" },
-  { nombre: "Janeth Malagon", codigo: "janethm7", regalo: "Cuna corral + Pañales Pampers 3" },
+  { nombre: "Janeth Malagon", codigo: "janethm7", regalo: "Cuna corral" },
   { nombre: "Familia Rojas", codigo: "famroj55", regalo: "Semanario + Pañales Pampers 2" },
   { nombre: "Laura Alvarez y Sr", codigo: "lauraa60", regalo: "Bodys talla 3 meses + Pañales Pampers 4" },
   { nombre: "Lina Mican/Sr", codigo: "linamz48", regalo: "Sudadera talla 6 meses + Pañales Pampers 2" },
   { nombre: "Viviana Amaya y Hermana", codigo: "viviah92", regalo: "Conjunto talla 3 meses + Pañales Pampers 3" }
+  { nombre: "Nelly Giraldo", codigo: "nellyg22", regalo: "Kit De Aseo" }
+  { nombre: "Juan Esteban Maldonado", codigo: "juanm777", regalo: "Pañales Pampers etapa 3" }
 ];
 
 document.getElementById('loginForm').addEventListener('submit', function (e) {
