@@ -42,7 +42,9 @@ const invitados = [
   { nombre: "Lina Mican/Sr", codigo: "linamz48", regalo: "Sudadera talla 6 meses + Pañales Pampers 2" },
   { nombre: "Viviana Amaya y Hermana", codigo: "viviah92", regalo: "Conjunto talla 3 meses + Pañales Pampers 3" },
   { nombre: "Nelly Giraldo", codigo: "nellyg22", regalo: "Kit De Aseo" },
-  { nombre: "Juan Esteban Maldonado", codigo: "juanm777", regalo: "Pañales Pampers etapa 3" }
+  { nombre: "Juan Esteban Maldonado", codigo: "juanm777", regalo: "Pañales Pampers etapa 3" },
+   { nombre: "Pamela Ladino", codigo: "pamelal33", regalo: "Bodys Talla 6 Meses + Pañales Pampers 2" },
+    { nombre: "Martha Moreno", codigo: "martha98", regalo: "Gimnasio Para Bebe" }
 ];
 
 document.getElementById('loginForm').addEventListener('submit', function (e) {
