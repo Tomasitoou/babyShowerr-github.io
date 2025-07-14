@@ -30,7 +30,7 @@ const invitados = [
   { nombre: "Leonardo Portela y Sra", codigo: "leonp99", regalo: "Móvil musical + Pañales Pampers Recién Nacido" },
   { nombre: "Felipe Tellez", codigo: "feltel10", regalo: "Caminador + Pañales Pampers 2" },
   { nombre: "Miguel Galviz", codigo: "miggal26", regalo: "Silla mecedora " },
-  { nombre: "Isaac Ordoñez", codigo: "isaaco43", regalo: "Pijama talla 6 meses + Pañales Pampers 3" },
+  { nombre: "Isaac Ordoñez", codigo: "isaaco43", regalo: "Pañales Pampers 3" },
   { nombre: "Alejandro Cardona", codigo: "alejoc87", regalo: "Conjunto talla 3 meses + Pañales Pampers 4" },
   { nombre: "William Garcia y Sra e Hijos", codigo: "willgar78", regalo: "Silla comedor bebé + Pañales Pampers 4" },
   { nombre: "Mairon Abella y Sra", codigo: "maironx5", regalo: "Conjunto talla 6 meses + Pañales Pampers 4" },
@@ -43,8 +43,10 @@ const invitados = [
   { nombre: "Viviana Amaya y Hermana", codigo: "viviah92", regalo: "Conjunto talla 3 meses + Pañales Pampers 3" },
   { nombre: "Nelly Giraldo", codigo: "nellyg22", regalo: "Kit De Aseo" },
   { nombre: "Juan Esteban Maldonado", codigo: "juanm777", regalo: "Pañales Pampers etapa 3" },
-   { nombre: "Pamela Ladino", codigo: "pamelal33", regalo: "Bodys Talla 6 Meses + Pañales Pampers 2" },
-    { nombre: "Martha Moreno", codigo: "martha98", regalo: "Gimnasio Para Bebe" }
+  { nombre: "Pamela Ladino", codigo: "pamelal33", regalo: "Bodys Talla 6 Meses + Pañales Pampers 2" },
+  { nombre: "Martha Moreno", codigo: "martha98", regalo: "Gimnasio Para Bebe" },
+  { nombre: "Jaime Alonso", codigo: "jaimea12", regalo: "conjunto talle 6 meses" }
+
 ];
 
 document.getElementById('loginForm').addEventListener('submit', function (e) {
