@@ -45,7 +45,9 @@ const invitados = [
   { nombre: "Juan Esteban Maldonado", codigo: "juanm777", regalo: "Pañales Pampers etapa 3" },
   { nombre: "Pamela Ladino", codigo: "pamelal33", regalo: "Bodys Talla 6 Meses + Pañales Pampers 2" },
   { nombre: "Martha Moreno", codigo: "martha98", regalo: "Gimnasio Para Bebe" },
-  { nombre: "Jaime Alonso", codigo: "jaimea12", regalo: "conjunto talle 6 meses" }
+  { nombre: "Jaime Alonso", codigo: "jaimea12", regalo: "conjunto talle 6 meses" },
+    { nombre: "Juan Felipe Suarez", codigo: "juanf34", regalo: "Juego didactico musical + Pañales Pampers 2" }
+
 
 ];
 
